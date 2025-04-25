@@ -40,24 +40,12 @@ const activeItemStyles = computed(
 
 const mainNavItems: NavItem[] = [
     {
-        title: 'Dashboard',
+        title: 'Panel de Control',
         href: '/dashboard',
         icon: LayoutGrid,
     },
 ];
 
-const rightNavItems: NavItem[] = [
-    {
-        title: 'Repository',
-        href: 'https://github.com/laravel/vue-starter-kit',
-        icon: Folder,
-    },
-    {
-        title: 'Documentation',
-        href: 'https://laravel.com/docs/starter-kits',
-        icon: BookOpen,
-    },
-];
 </script>
 
 <template>
@@ -73,7 +61,7 @@ const rightNavItems: NavItem[] = [
                             </Button>
                         </SheetTrigger>
                         <SheetContent side="left" class="w-[300px] p-6">
-                            <SheetTitle class="sr-only">Navigation Menu</SheetTitle>
+                            <SheetTitle class="sr-only">Panel de Control</SheetTitle>
                             <SheetHeader class="flex justify-start text-left">
                                 <AppLogoIcon class="size-6 fill-current text-black dark:text-white" />
                             </SheetHeader>

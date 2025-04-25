@@ -15,20 +15,20 @@ import { Head, Link } from '@inertiajs/vue3';
                     :href="route('dashboard')"
                     class="inline-block rounded-sm border border-[#19140035] px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]"
                 >
-                    Dashboard
+                    Panel de Administracion
                 </Link>
                 <template v-else>
                     <Link
                         :href="route('login')"
                         class="inline-block rounded-sm border border-transparent px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#19140035] dark:text-[#EDEDEC] dark:hover:border-[#3E3E3A]"
                     >
-                        Log in
+                        Iniciar Sesion
                     </Link>
                     <Link
                         :href="route('register')"
                         class="inline-block rounded-sm border border-[#19140035] px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]"
                     >
-                        Register
+                        Registrarse
                     </Link>
                 </template>
             </nav>
@@ -60,7 +60,7 @@ import { Head, Link } from '@inertiajs/vue3';
                                     target="_blank"
                                     class="ml-1 inline-flex items-center space-x-1 font-medium text-[#f53003] underline underline-offset-4 dark:text-[#FF4433]"
                                 >
-                                    <span>Documentation</span>
+                                    <span>Documentacion</span>
                                     <svg
                                         width="{10}"
                                         height="{11}"
